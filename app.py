@@ -15,7 +15,6 @@ else:
        shutil.rmtree("./images")
        os.mkdir(SAVE_FOLDER)
 
-
 if not os.path.exists(SAVE_FOLDER_IMAGE):
        os.mkdir(SAVE_FOLDER_IMAGE)
 
